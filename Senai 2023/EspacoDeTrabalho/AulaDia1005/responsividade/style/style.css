@@ -1,0 +1,221 @@
+*{
+    padding: 0%;
+    margin: 0%
+}
+
+h2{
+    text-align: center;
+    font-weight: bolder;
+    margin: 10px 0px;
+}
+
+main{
+    text-align: center;
+    min-width: 320px;
+}
+
+#principal{
+    margin: 20px auto;
+    max-width: 600px;
+    min-width: 320px;
+}
+/* Estilos para o cabeçalho */
+header {
+    background-color: #2A2B2A;
+    padding: 20px;
+    color: #F8F4E3;
+    display: flex;
+    justify-content: space-between;
+    min-width: 320px;
+  }
+  #DivHeader {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  @media screen and (max-width:600px) {
+    header {
+      flex-direction: row-reverse;
+    }
+    
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 36px;
+    font-weight: bold;
+  }
+  
+  nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+  }
+  
+  nav li:last-child {
+    margin-right: 0;
+  }
+  
+  nav a {
+    color: #F8F4E3;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+  }
+  
+  #listagem{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin: 20px auto;
+  }
+
+  hr{
+    width: 80%;
+    margin: 0px auto;
+    border: #F5124B 2px solid;
+  }
+
+  #btnMenu {
+    display: none;
+  }
+
+  @media screen and (max-width:600px) {
+
+    #menu {
+      display: block;
+      position: absolute;
+      width: 100%;
+      top: 70px;
+      left: 0;
+      background: rgb(42, 43, 42);
+      transition: .5s;
+      z-index: 1000;
+      height:0px;
+      visibility: hidden;
+      overflow-y: hidden;
+    }
+    #nav.active #menu {
+      width: 30%;
+      height: auto;
+      /* display: block; */
+      visibility: visible;
+      overflow-y: auto;
+
+
+    }
+    #menu li {
+      padding: 1rem;
+      /* margin: 0 1rem; */
+      border-bottom: 2px double rgba(255, 255, 255, 0.267);
+    }
+    #nav a {
+        color: #ffffff;
+    }
+    #btnMenu {
+      display: flex;
+      padding: .5rem 1rem;
+      font-size: 1rem;
+      border: none;
+      background: none;
+      cursor: pointer;
+      gap: .5rem;
+    }
+    #hamburguer {
+      color: #ffff;
+      border-top: 2px solid;
+      width: 20px;
+    }
+    #hamburguer::after, #hamburguer::before {
+      content: '';
+      display: block;
+      width: 20px;
+      height: 2px;
+      background: currentColor;
+      margin-top: 5px;
+      transition: 3.s;
+      position: relative;
+    }
+    #nav.active #hamburguer {
+      border-top-color:transparent ;
+    }
+    #nav.active #hamburguer::before {
+      transform: rotate(135deg);
+    }
+    #nav.active #hamburguer::after {
+      transform: rotate(-135deg);
+      top: -7px;
+    }
+  }
+
+  /* Estilos para a seção de receita */
+  section {
+    margin: 50px 0;
+    min-width: 320px;
+  }
+  
+  section h2 {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  article {
+    max-width: 350px;
+    min-width: 220px;
+    height: auto;
+    padding: 20px;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 30px ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: #2a2b2a7e solid 1px;
+    border-radius: 10px;
+  }
+  
+  article h3 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  article img {
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  article p {
+    font-size: 16px;
+    margin: 20px 0;
+    text-align: center;
+    color: #706C61;
+  }
+  
+  article a {
+    background-color: #F5124B;
+    color: #F8F4E3;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  article a:hover {
+    background-color: #FF8966;
+  }
+  
+  /* Estilos para o rodapé */
+  footer {
+    background-color: #2A2B2A;
+    color: #F8F4E3;
+    padding: 20px;
+    text-align: center;
+    min-width: 320px;
+  }
