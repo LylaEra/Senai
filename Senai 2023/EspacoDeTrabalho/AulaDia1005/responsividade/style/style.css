@@ -126,7 +126,7 @@ header {
       gap: .5rem;
     }
     #hamburguer {
-      color: #ffff;
+      color: rgb(0, 0, 0);
       border-top: 2px solid;
       width: 20px;
     }

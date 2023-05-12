@@ -1,0 +1,164 @@
+@font-face {
+    font-family: Minecraft;
+    src: url(../fonts/Minercraftory.ttf);
+    font-weight: normal;
+}
+@font-face {
+    font-family: Oxford;
+    src: url(../fonts/OxfordStreet.ttf);
+    font-weight: normal;
+}
+
+* {
+    font-family: Oxford;
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    display: inline-flex;
+    
+    align-items: center;
+}
+
+#UlMenu {
+    width: 70%;
+    display: inline-flex;
+    justify-content: space-around;
+}
+
+#menu {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+#BotoesMenu {
+    width: 30%;
+    display: block;
+}
+
+@media screen and (max-width:600px) {
+    #BotoesMenu {
+        width: 60%;
+    }
+    
+}
+
+li, a {
+    text-decoration: none;
+    list-style: none;
+    margin: 5px;
+    color: rgb(137, 30, 236);
+    text-shadow: #fff 10%;
+
+}
+
+li:hover {
+    transition: 2s;
+    text-transform: uppercase;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(230, 230, 230);
+    height: 40px;
+}
+
+#btnMenu {
+    display: none;
+  }
+
+  @media screen and (max-width:600px) {
+
+    #menu {
+      display: block;
+      position: absolute;
+      width: 40%;
+      top: 40px;
+      left: 0;
+      background: rgb(231, 231, 231);
+      transition: .5s;
+      z-index: 1000;
+      height:0px;
+      visibility: hidden;
+      overflow-y: hidden;
+    }
+    #nav.active #menu {
+      width: 30%;
+      height: auto;
+      display: block;
+      visibility: visible;
+      overflow-y: auto;
+
+
+    }
+    #menu li {
+      padding: 1rem;
+      /* margin: 0 1rem; */
+      border-bottom: 2px double rgba(255, 255, 255, 0.267);
+    }
+    #nav a {
+        color: #070707;
+    }
+    #btnMenu {
+      display: flex;
+      padding: .5rem 1rem;
+      font-size: 1rem;
+      border: none;
+      background: none;
+      cursor: pointer;
+      gap: .5rem;
+    }
+    #hamburguer {
+      color: rgb(0, 0, 0);
+      border-top: 2px solid;
+      width: 20px;
+    }
+    #hamburguer::after, #hamburguer::before {
+      content: '';
+      display: block;
+      width: 20px;
+      height: 2px;
+      background: currentColor;
+      margin-top: 5px;
+      transition: 3.s;
+      position: relative;
+    }
+    #nav.active #hamburguer {
+      border-top-color:transparent ;
+    }
+    #nav.active #hamburguer::before {
+      transform: rotate(135deg);
+    }
+    #nav.active #hamburguer::after {
+      transform: rotate(-135deg);
+      top: -7px;
+    }
+  }
+
+  .button {
+    width: 70px;
+    height: 35px;
+    border-radius: 0% 0% 13% 13%;
+    border: solid 1px;
+  }
+
+  #btnCadastro {
+    color: rgb(117, 11, 216);
+  }
+
+  #btnLogin {
+    background-color: rgb(255, 52, 171);
+    color: #fff;
+    border: none;
+  }
+
+  .button:hover {
+      transform: scale(1.2,1.2);
+      margin-left: 5px;
+      margin-right: 5px;
+  }
