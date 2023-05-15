@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+main {
+    padding: 20px 10px;
+    background-color: rgb(219, 219, 219);
+}
+table {
+    border-collapse: collapse;
+    width: 400px;
+}
+td, th {
+    border: 1px black solid;
+    padding: 10px;
+    text-align: center;
+    vertical-align: middle;
+    color: rgb(255, 0, 0);
+    background-color: rgb(134, 134, 134);
+}
+td {
+    background-color: white;
+}
+thead > th {
+    position: sticky;
+    top: 0px;
+}

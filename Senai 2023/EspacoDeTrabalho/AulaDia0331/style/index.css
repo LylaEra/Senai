@@ -1,0 +1,176 @@
+#Headerz {
+    width: 98%;
+    height: 500px;
+    margin: 0 auto;
+    background-image: url(../img/Steam1.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.336);
+}
+#FiDoHeader {
+    width: 100%;
+    height: auto;
+}
+#DivBotoesPai {
+    width: 100%;
+    height: auto;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+#textoHeader{
+    width: 100%;
+    height: auto;
+    margin-bottom: 0.4%;
+    text-shadow: #ffffff;
+}
+.DivBotoes {
+    background-color: rgba(105, 102, 102, 0.603);
+    width: 90px;
+    height: 30px;
+    color: #ffff;
+    border-radius: 4%;
+    box-shadow: 1px 1px 7px black;
+    padding: 0.6% 0.8% 0.2% 0.2%;
+    margin: 0% 1% 0.6%;
+}
+.DivBotoes:hover {
+    background-color: #152c3ab7;
+    transform: scale(1.2);
+	transition: all .2s;
+    filter: brightness(1.25);
+}
+#DivConteudo {
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+    background-color: #1e4055;
+    margin-top: 1%;
+    border-radius: 1rem;
+}
+#ConteudoGame {
+    width: 100%;
+    height: 40px;
+    background-color: #004d77b2;
+    border-radius: 1rem;
+    margin-bottom: 3%;
+    padding-bottom: 1%;
+}
+h1 {
+    text-align: center;
+    color: #ffff;
+}
+#PaiDosConteudos {
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgba(0, 0, 0, 0);
+    justify-content: space-around;
+}
+.FiConteudo {
+ background-color: aliceblue;
+ margin: 0 auto;
+ width: 250px;
+ height: 500px;
+ display: flex;
+ align-items: flex-end;
+ flex-wrap: wrap;
+ margin-bottom: 5%;
+ box-shadow: 3px 3px 9px black;
+}
+.FiConteudo:hover {
+    background-color: #1e4055;
+    transform: scale(1.05);
+	transition: all .2s;
+    filter: brightness(1.25);
+   }
+.FiConteudo img {
+    width: 250px;
+    height: 350px;
+}
+.BackFi {
+    background-image: url(../img/divgameslayout.jpg);
+    width: 250px;
+    height: 150px;
+    text-align: center;
+    color: #ffff;
+}
+.discount_pct {
+    float: left;
+    line-height: 34px;
+    padding: 0 5px;
+    font-size: 26px;
+    font-weight: 500;
+    color: #BEEE11;
+    background: #4c6b22;
+    margin-left: 22%;
+    margin-top: 8%;
+}
+.discount_prices {
+    line-height: 13px;
+    padding: 0 1px 0 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    background: #344654;
+    float: left;
+    height: 34px;
+    margin-top: 8%;
+}
+.discount_original_price {
+    position: relative;
+    width: fit-content;
+    color: #738895;
+    font-size: 11px;
+    line-height: 12px;
+}
+.discount_original_price:before {
+    content: '';
+    left: 0px;
+    right: 0px;
+    position: absolute;
+    top: 43%;
+    border-bottom: 1.5px solid #738895;
+    transform: skewY(-8deg);
+    box-shadow: 0 0 2px black;
+}
+.discount_final_price {
+    color: #BEEE11;
+    line-height: 16px;
+    font-size: 15px;
+}
+.discount_pricesx {
+    line-height: 13px;
+    padding: 0 8px 0 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    background: #344654;
+    float: left;
+    height: 34px;
+    margin-left: 22%;
+    margin-top: 21%;
+}
+.discount_original_pricex {
+    position: relative;
+    width: fit-content;
+    color: #dbe2e6;
+    font-size: 0.9rem;
+    line-height: 12px;
+}
+#pricexum {
+    margin-top: 31%;
+}
+p {
+    text-align: center;
+    color: #ffff;
+}

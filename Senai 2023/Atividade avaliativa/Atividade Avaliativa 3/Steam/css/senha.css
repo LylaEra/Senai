@@ -1,0 +1,111 @@
+
+header {
+    width: 98%;
+    margin: 0 auto;
+    /* background-color: #004d77b2; */
+}
+header h1 {
+    color: #ffff;
+    font-size: 3rem;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    line-height: 100px;
+}
+#DivConteudo {
+    width: 100%;
+    height: auto;
+    background-image: url(../images/LoginBackground.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#principal {
+    width: 60%;
+    height: auto ;
+    display: flex;
+    flex-direction: row;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.178);
+    background-color: #181A21;
+}
+@media screen and (max-width: 900px) {#principal {
+    flex-direction: column;
+    justify-content: flex-start;
+    }
+}
+#formularioum {
+    color: #ffff;
+    width: 45%;
+    height: auto;
+    /* display: flex; */
+    justify-content: flex-start;
+    background-color: #181A21;
+}
+@media screen and (max-width: 900px) { #formularioum {
+    height: auto;
+    margin-bottom: 10%;
+}
+}
+#formularioummeio {
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+}
+#formulariodois {
+    /* background-color: black; */
+    margin: 0 auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+#UserAndPassword {
+    display: grid;
+}
+.Textlogin{
+    width: auto;
+    height: 2rem;
+    padding: 1.1rem;
+    margin-top: 6px;
+    outline: none;
+    font-size: 15px;
+    border-radius: 2%;
+    border: 1px solid #32353c;
+    background-color: #32353c;
+    color: white;
+}
+#checkboxdiv {
+    display: flex;
+    align-items: center;
+}
+#SalvarDados {
+    width: 200px;
+}
+#checkbox {
+    width: 15px;
+}
+#buttonEntrar {
+    margin-top: 15%;
+    width: 100%;
+    color:white ;
+    background:linear-gradient(90deg, #06BFFF 0%, #2D73FF 100%);
+    border-radius: 2px;
+    border: none;
+    padding: 4%;
+}
+#banner {
+    width: 55%;
+    height: 300px;
+    background-image: url(../images/SteamCadastro4.jpg);
+    background-size:100% 100% ;
+
+}
+@media screen and (max-width: 900px) {#banner {
+    width: 100%;
+    height: 200px;
+    background-image: url(../images/SteamCadastro4.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+}

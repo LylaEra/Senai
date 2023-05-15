@@ -1,0 +1,107 @@
+#DivConteudo {
+    width: 100%;
+    height: auto;
+    background-image: url(../images/LoginBackground.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header {
+    text-align: center;
+}
+header h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    line-height: 100px;
+}
+#principal {
+    width: 60%;
+    height: auto ;
+    display: flex;
+    padding-bottom: 1%;
+    flex-direction: row;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.178);
+    background-color: #181A21;
+}
+@media screen and (max-width: 900px) {#principal {
+    flex-direction: column;
+    width: 45%;
+    }
+}
+#FormularioPai {
+    width: 45%;
+    height: 100%;
+    padding: 0;
+}
+#BannerFormulario {
+    width: 55%;
+    height: auto;
+    padding: 0;
+    margin: 0;
+    background-image: url(../images/SteamCadastro4.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+@media screen and (max-width: 900px) {#BannerFormulario {
+    width: 100%;
+    height: 200px;
+    background-image: url(../images/SteamCadastro4.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    }
+}
+#formulario {
+    /* background-color: black; */
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+#formulario a {
+    font-size: 0.6rem;
+    color: blue;
+    text-decoration: underline;
+    margin-bottom: 10px;
+}
+#UserAndPassword {
+    display: flex;
+    display: grid;
+    padding:0;
+    
+}
+.Textlogin {
+    width: auto;
+    height: 2rem;
+    padding: 0.8rem;
+    margin-top: 6px;
+    outline: none;
+    font-size: 15px;
+    border-radius: 2%;
+    border: 1px solid #32353c;
+    background-color: #32353c;
+    color: white;
+}
+#SalvarDados {
+    width: 0 auto;
+}
+#checkboxdiv {
+    display: flex;
+    align-items: center;
+}
+@media screen and (max-width: 900px) {#checkboxdiv {
+    width: 100%;
+    }
+}
+#buttonEntrar {
+    margin-top: 2%;
+    width: 70px;
+    height: 30px;
+    color: white;
+    background: linear-gradient(90deg, #06BFFF 0%, #2D73FF 100%);
+    border-radius: 2px;
+    border: none;
+}

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style/geral.css">
+    <link rel="stylesheet" href="../style/cadastro.css">
+    <title>Index</title>
+</head>
+<body>
+    <div id="pagina">
+        <!--Div acima do header-->
+        <div id="DivAcimaHeader"></div>
+        <!--Header começa aqui-->
+        <div id="header">
+            <!--DivLogo começa aqui-->
+            <div id="DivLogo">
+                <img src="../img/steamsvg.svg" alt="Logo" id="steamLogo">
+            </div>
+            <!--menus começam aqui-->
+            <div id="menu">
+                <b><a href="../page/index.html">Home</a></b>
+                <b><a href="../page/cadastro.html">Cadastro</a></b>
+                <b><a href="https://store.steampowered.com/" rel="external" target="_blank">Steam</a></b>
+            </div>
+            <!--menus terminam aqui-->
+        </div>
+        <!--Div abaixo do header-->
+        <div id="DivAbaixoHeader"></div>
+        <header>
+            <h1>CADASTRO</h1>
+        </header>
+        <div id="DivConteudo">
+            <div id="principal">
+                <div id="banner">
+                    <img src="../img/SteamCadastro1.jpg" alt="PC">
+                </div>
+                <!-- formulario -->
+                <div id="formulario">
+                    <h1>CADASTRO</h1><br>
+                        <div id="formularioum">
+                            <form id="formulariodois" action="">
+                                <!-- nome -->
+                                <label for="nome">Nome</label>
+                                    <input type="text" id="nome" required><br>
+                                <!-- email -->
+                                <label for="email">E-mail</label>
+                                    <input type="email" name="email" id="email" required><br>
+                                <!-- senha -->
+                                <label for="senha">Senha</label>
+                                    <input type="password" name="Senha" id="Senha" size="8" required><br>
+                                <!-- data -->
+                                <label for="data">Data</label>
+                                    <input type="date" name="data" id="data" required><br>
+                                <!-- hora -->
+                                <label for="data">Hora</label>
+                                    <input type="time" name="time" id="time" disabled><br>
+                                <!-- text area -->
+                                <textarea name="" id="" cols="30" rows="10"></textarea><br>
+                                <!-- checkbox -->
+                                <label>Você é maior de idade ?</label>
+                                    <input type="checkbox" name="checkbox" id="checkbox" required><br>
+                                <!-- radio -->
+                                <label for="#"> Quanto você domina o html?</label>
+                                    <p>Muito</p>
+                                    <input type="radio" name="radio" id="radio"><br>
+                                    <p>Médio</p>
+                                    <input type="radio" name="radio" id="radio"><br>
+                                    <p>Pouco</p>
+                                    <input type="radio" name="radio" id="radio"><br>
+                                <!-- number -->
+                                <label for="CPF">CPF</label>
+                                    <input type="text" name="cpf" id="numero" placeholder="000.000.000-00" min="0"><br>
+                                <!-- opções -->
+                                <select name="options" id="options">
+                                    <option value="HTML">HTML</option>
+                                    <option value="JS">JS</option>
+                                    <option value="CSS">CSS</option>
+                                </select><br>
+                                <!-- cadastrar -->
+                                <button type="submit">Cadastrar</button>
+                                <!-- reset -->
+                                <input type="reset" value="Reset"><br>
+
+                            </form>
+                        </div>
+                </div>
+            </div>    
+        </div>
+        <footer>
+            Minha <b>FanSteam&copy;</b><br>
+            <sup>2023</sup> Todos os Direitos reservados
+        </footer>
+    </div>
+    
+</body>
+</html>

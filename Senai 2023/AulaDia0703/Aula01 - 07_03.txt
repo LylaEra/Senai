@@ -1,0 +1,9 @@
+AULA 01 (07/03/2023)
+
+- História da Internet (Gustavo Guanabara / Curso em Vídeo)
+
+	Crianda durante a Guerra Fria;
+	Os EUA, preocupados com o lançamento da Missão Sputinik, da URSS, fundaram a DARPA, agência para avanços militares;
+	Em 1969 é criada a ARPANET, sistema de rede para interligar computadores militares e de universidades, visando proteger os dados;
+	Com a diversidade de computadores da época, foi criado o NCP, que pradronizava a linguagem das máquinas;
+	O nome INTERNET é derivado de ARPANET;

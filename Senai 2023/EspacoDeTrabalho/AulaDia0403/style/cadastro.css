@@ -1,0 +1,68 @@
+
+header {
+    width: 98%;
+    height: 100px;
+    margin: 0 auto;
+    background-color: #004d77b2;
+}
+header h1 {
+    color: #ffff;
+    font-size: 3rem;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    line-height: 100px;
+}
+#DivConteudo {
+    width: 100%;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#principal {
+    width: 80%;
+    height: 80%;
+    display: flex;
+    
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.178);
+}
+#banner {
+    width: 50%;
+    height: 100%;
+}
+#banner img {
+    width: 100%;
+    height: 100%;
+    opacity: 40%;
+}
+#formulario {
+    width: 100%;
+    height: 100%;
+    background-color: #21465e;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#formulario h1 {
+    text-align: center;
+    color: #ffff;
+}
+#formularioum {
+    color: #ffff;
+    width: 90%;
+    height: 88%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-color: #1f4d6b;
+    border-radius: 3%;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.178);
+}
+#formulariodois {
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+    margin: 4%;
+}

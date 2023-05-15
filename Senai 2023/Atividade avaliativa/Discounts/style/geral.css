@@ -1,0 +1,76 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* html {
+    height: 100%;
+    display: flex;
+} */
+#pagina {
+    width: 100%;
+    height: auto;
+    background: linear-gradient(45deg, rgba(198, 12, 12, 0.44), rgba(83, 9, 9, 0.83), rgba(135, 8, 8, 0.45) );
+}
+body {
+    background-color: #571e1e;
+}
+#DivAcimaHeader {
+    width: 100%;
+    height: 20px;
+}
+#header {
+    color: #ffffff;
+    width: 98%;
+    height: 50px;
+    background-color: #770000;
+    margin: 0 auto;
+    border-radius: 1rem;
+}
+#DivLogo {
+    width: 15%;
+    height: auto;
+    float: left;
+    margin-left: 1%;
+    display: flex;
+}
+#DiscountLogo {
+    width: 50px;
+    height: 50px;
+}
+#DivLogoUm {
+    width: 30%;
+    height: 50px;
+}
+#DivLogoDois {
+    width: 70%;
+    height: 50px;
+}
+#menu {
+    padding-top: 0.8%;
+    width: auto;
+    height: auto;
+    float: right;
+    margin-right: 8%;
+}
+a {
+    padding-left: 7px;
+    text-decoration: none;
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#DivAbaixoHeader {
+    width: 100%;
+    height: 20px;
+}
+footer {
+    color: #ffffff;
+    background-color: #3a1515;
+    width: 96%;
+    height: 50px;
+    margin: 0 auto;
+    margin-top: 1%;
+    border-radius: 1rem;
+    padding-left: 2%;
+    padding-top: 1%;
+}

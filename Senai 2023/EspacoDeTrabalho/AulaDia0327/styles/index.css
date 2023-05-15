@@ -1,0 +1,55 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.caixa {
+    width: 500px;
+    height: auto;
+    background-color: aquamarine;
+    padding: 10px;
+    margin: 20px;
+}
+.caixaimg {
+    width: 50px;
+    height: 50px;
+    background-image: url(../img/ApexLegends.jpg);
+    background-size: 100% 100%;
+}
+.caixaum {
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    padding: 10px;
+}
+.caixadois {
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+    padding: 10px;
+}
+.caixatres {
+    width: 50px;
+    height: 50px;
+    background-color: yellow;
+    padding: 10px;
+}
+/* Começo do alinhamento */
+#direction {
+    display: flex;
+    flex-direction: row;
+}
+#directionreverse {
+    display: flex;
+    flex-direction: row-reverse;
+}
+#caixawrap {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+#center {
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+}

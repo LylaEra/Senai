@@ -1,0 +1,21 @@
+#buttonEntrar {
+    margin-top: 15%;
+    width: auto;
+    height: auto;
+    color:white ;
+    background:linear-gradient(90deg, #06BFFF 0%, #2D73FF 100%);
+    border-radius: 2px;
+    border: none;
+}
+.Textlogin{
+    width: 13rem;
+    height: 2rem;
+    padding: 1.1rem;
+    margin-top: 6px;
+    outline: none;
+    font-size: 15px;
+    border-radius: 2%;
+    border: 1px solid #32353c;
+    background-color: #32353c;
+    color: white;
+}

@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+main {
+    padding: 20px 10px;
+    background-color: rgb(231, 231, 231);
+}
+table {
+    border-collapse: collapse;
+    width: 400px;
+}
+td, th {
+    border: 1px black solid;
+    padding: 10px;
+    text-align: center;
+    vertical-align: middle;
+    color: rgb(255, 0, 0);
+}
+td {
+    background-color: white;
+}
+td
+th {
+    background-color: rgb(129, 129, 129);
+}
+thead > th {
+    position: sticky;
+    top: 0px;
+}
