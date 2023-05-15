@@ -26,46 +26,54 @@
             </div>
             <!--DivLogo termina aqui-->
             <!--menus começam aqui-->
-            <div id="menu">
-                <b><a href="../page/index.html">Home</a></b>
-                <b><a href="../page/login.html">Login</a></b>
-                <b><a href="../page/cadastro.html">Cadastro</a></b>
-                <b><a href="https://store.steampowered.com/" rel="external" target="_blank">Steam</a></b>
-            </div>
+            <nav id="nav">
+                <button id="btnMenu">
+                    <span id="hamburguer"></span>
+                  </button>
+                <div id="UlMenu">
+                    <ul id="menu">
+                        <li><a href="../page/index.html">Home</a></li>
+                        <li><a href="../page/login.html">Login</a></li>
+                        <li><a href="../page/cadastro.html">Cadastro</a></li>
+                    </ul>
+                </div>
+            </nav>
             <!--menus terminam aqui-->
         </div>
         <!--Div abaixo da Div header-->
         <div id="DivAbaixoHeader"></div>
-        <!-- Headerz começa aqui -->
-        <header id="Headerz">
-            <!-- Começo da Div do conteudo do headerz -->
-            <div id="FiDoHeader">
-                <!-- Div do Subtitulo do headerz -->
-                <div id="textoHeader">
-                    <p> Descontos de Games Centralizados aqui!</p>
-                </div>
-                <!-- Começo da Div pai dos botões do headerz -->
-                <div id="DivBotoesPai">
-                    <!--Começo das Divs dos botões -->
-                    <div class="DivBotoes">
-                        <a href="../page/multiplayer.html">Multiplayer</a>
-                    </div>
-                    <div class="DivBotoes">
-                        <a href="../page/singleplayer.html">Singleplayer</a>
-                    </div>
-                    <div class="DivBotoes">
-                        <a href="../page/cooperativo.html">Cooperativo</a>
-                    </div>
-                    <div class="DivBotoes">
-                        <a href="../page/fps.html">FPS</a>
-                    </div>
-                    <!--Fim das Divs dos botões -->
-                </div>
-                <!-- Fim da Div pai dos botões do headerz -->
+        <!-- Div SlideShow começa aqui -->
+        <div class="slideshow-container">
+            <div class="mySlides fade">
+              <img src="../img/backgroundnoblur1500x500.png" style="width:100%">
             </div>
-            <!-- Dim da Div do conteudo do headerz -->
-        </header>
-        <!-- Headerz termina aqui -->
+            <div class="mySlides fade">
+              <img src="../img/background1500x500.gif" style="width:100%">
+            </div>    
+        </div>
+        <br>        
+            <div style="text-align:center">
+              <span class="dot"></span> 
+              <span class="dot"></span> 
+            </div>
+            <!-- Começo da Div pai dos botões do headerz -->
+            <div id="DivBotoesPai">
+                <!-- Começo das Divs dos botões -->
+                <div class="DivBotoes">
+                    <a href="../page/multiplayer.html">Multiplayer</a>
+                </div>
+                <div class="DivBotoes">
+                    <a href="../page/singleplayer.html">Singleplayer</a>
+                </div>
+                <div class="DivBotoes">
+                    <a href="../page/cooperativo.html">Cooperativo</a>
+                </div>
+                <div class="DivBotoes">
+                    <a href="../page/fps.html">FPS</a>
+                </div>
+                <!-- Fim das Divs dos botões -->
+            </div>
+        <!-- Div SlideShow termina aqui -->
         <!-- Começo da Div dos conteudos -->
         <div id="DivConteudo">
             <!-- Titulo do Conteudo -->
@@ -194,6 +202,7 @@
             Todos os Direitos reservados
         </footer>
         <!-- Fim Footer -->
+    <script src="../js/js.js"></script>
     </div>
     <!-- Fim da Div Pai da Pagina Inteira -->
 </body>

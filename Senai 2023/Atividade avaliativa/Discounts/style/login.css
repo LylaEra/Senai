@@ -38,14 +38,14 @@ header h1 {
 #banner {
     width: 300px;
     height: 400px;
-    background-image: url(../img/SteamCadastro1.jpg);
+    background-image: url(../img/Anuncio.png);
     background-size:cover ;
 
 }
 @media screen and (max-width: 900px) {#banner {
     width: 100%;
     height: 180px;
-    background-image: url(../img/SteamCadastro4.jpg);
+    background-image: url(../img/Anuncio2.png);
     background-size: 300px 180px;
     background-repeat: no-repeat;
 }
@@ -57,7 +57,7 @@ header h1 {
     margin: 0 auto;
     display: flex;
     /* justify-content: center; */
-    background-color: #181A21;
+    background-color: #181a217a;
 }
 @media screen and (max-width: 900px) { #formularioum {
     height: 350px;
@@ -89,14 +89,14 @@ header h1 {
     outline: none;
     font-size: 15px;
     border-radius: 2%;
-    border:1px solid #32353c;
-    background-color: #32353c;
+    border:1px solid #360101;
+    background-color: #381515;
     color: white;
 }
 #formulariodois a {
-    font-size: 0.6rem;
-    color: blue ;
-    text-decoration: underline;
+    font-size: 0.7rem;
+    color: rgb(173, 173, 173) ;
+    text-decoration: overline;
     margin-bottom: 10px;
 }
 #checkboxdiv {
@@ -114,7 +114,7 @@ header h1 {
     width: 70px;
     height: 30px;
     color:white ;
-    background:linear-gradient(90deg, #06BFFF 0%, #2D73FF 100%);
+    background:linear-gradient(45deg, #ff0000 0%, #ff5d5d 100%);
     border-radius: 2px;
     border: none;
 }

@@ -2,7 +2,7 @@
     width: 98%;
     height: 500px;
     margin: 0 auto;
-    background-image: url(../img/Background.jpg);
+    background-image: url(../img/backgroundnoblur1500x500.png);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     display: flex;
@@ -45,8 +45,45 @@
 	transition: all .2s;
     filter: brightness(1.25);
 }
+
+/* Slide */
+.slideshow-container {
+    max-width: 1500px;
+    position: relative;
+    margin: auto;
+  }
+/* botões do slide */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px 8px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.activedot {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
 #DivConteudo {
-    width: 90%;
+    max-width: 1500px;
     height: auto;
     margin: 0 auto;
     background-color: #551e1e;

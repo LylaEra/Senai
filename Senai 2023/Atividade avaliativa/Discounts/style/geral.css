@@ -21,18 +21,19 @@ body {
 }
 #header {
     color: #ffffff;
-    width: 98%;
+    max-width: 1500px;
     height: 50px;
     background-color: #770000;
     margin: 0 auto;
     border-radius: 1rem;
+    display: flex;
+    justify-content: space-between;
 }
 #DivLogo {
-    width: 15%;
     height: auto;
-    float: left;
     margin-left: 1%;
     display: flex;
+    justify-content: space-between;
 }
 #DiscountLogo {
     width: 50px;
@@ -46,19 +47,133 @@ body {
     width: 70%;
     height: 50px;
 }
+/* começo do menuhamburguer */
+ul {
+    display: inline-flex;
+    
+    align-items: center;
+}
+
+#UlMenu {
+    width: 70%;
+    display: inline-flex;
+    justify-content: space-around;
+    font-weight: bold;
+}
+
 #menu {
-    padding-top: 0.8%;
-    width: auto;
-    height: auto;
-    float: right;
-    margin-right: 8%;
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    margin: 0 auto;
+    padding: 0 auto;
 }
-a {
-    padding-left: 7px;
+
+#BotoesMenu {
+    width: 30%;
+    display: block;
+}
+
+@media screen and (max-width:600px) {
+    #BotoesMenu {
+        width: 60%;
+    }
+    
+}
+
+li, a {
     text-decoration: none;
-    color: #ffffff;
+    list-style: none;
+    margin: 5px;
+    color: rgb(255, 255, 255);
+    text-shadow: #fff 10%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
 }
+
+li:hover {
+    transition: 2s;
+    text-transform: uppercase;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    height: 40px;
+}
+
+#btnMenu {
+    display: none;
+  }
+
+  @media screen and (max-width:600px) {
+
+    #menu {
+      display: block;
+      position: absolute;
+      width: 40%;
+      top: 70px;
+      right: 0;
+      background: #770000;
+      transition: .5s;
+      z-index: 1000;
+      height:0px;
+      visibility: hidden;
+      overflow-y: hidden;
+    }
+    #nav.active #menu {
+      width: 30%;
+      height: auto;
+      display: block;
+      visibility: visible;
+      overflow-y: auto;
+
+
+    }
+    #menu li {
+      padding: 1rem;
+      /* margin: 0 1rem; */
+      border-bottom: 2px double rgba(255, 255, 255, 0.267);
+    }
+    #nav a {
+        color: #070707;
+    }
+    #btnMenu {
+      display: flex;
+      padding: .5rem 1rem;
+      font-size: 1rem;
+      border: none;
+      background: none;
+      cursor: pointer;
+      gap: .5rem;
+    }
+    #hamburguer {
+      color: rgb(0, 0, 0);
+      border-top: 2px solid;
+      width: 20px;
+    }
+    #hamburguer::after, #hamburguer::before {
+      content: '';
+      display: block;
+      width: 20px;
+      height: 2px;
+      background: currentColor;
+      margin-top: 5px;
+      transition: 3.s;
+      position: relative;
+    }
+    #nav.active #hamburguer {
+      border-top-color:transparent ;
+    }
+    #nav.active #hamburguer::before {
+      transform: rotate(135deg);
+    }
+    #nav.active #hamburguer::after {
+      transform: rotate(-135deg);
+      top: -7px;
+    }
+  }
+/*final do menuhamburguer */
 #DivAbaixoHeader {
     width: 100%;
     height: 20px;
@@ -66,11 +181,11 @@ a {
 footer {
     color: #ffffff;
     background-color: #3a1515;
-    width: 96%;
+    max-width: 1490px;
     height: 50px;
     margin: 0 auto;
     margin-top: 1%;
     border-radius: 1rem;
-    padding-left: 2%;
-    padding-top: 1%;
+    padding-left: 10px;
+    padding-top: 5px;
 }
