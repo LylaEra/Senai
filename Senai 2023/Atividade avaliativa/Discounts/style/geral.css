@@ -92,8 +92,8 @@ li, a {
 }
 
 li:hover {
-    transition: 2s;
-    text-transform: uppercase;
+    transform: scale(1.1);
+	transition: all .2s;
 }
 
 nav {
