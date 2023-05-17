@@ -26,6 +26,6 @@ function showSlides() {
   }
   slides[slideIndex-1].style.display = "block";  
   dots[slideIndex-1].className += " activedot";
-  setTimeout(showSlides, 6000); // transição das imagens em 6 segundos
+  setTimeout(showSlides, 6500); // transição das imagens em 6 segundos
 }
 //final slide
