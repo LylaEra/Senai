@@ -10,7 +10,7 @@
 #pagina {
     width: 100%;
     height: auto;
-    background: linear-gradient(45deg, rgba(198, 12, 12, 0.44), rgba(83, 9, 9, 0.83), rgba(135, 8, 8, 0.45) );
+    background: linear-gradient(45deg, rgba(198, 12, 12, 0.349), rgba(83, 9, 9, 0.486), rgba(135, 8, 8, 0.589) );
 }
 body {
     background-color: #571e1e;
@@ -188,4 +188,10 @@ footer {
     border-radius: 1rem;
     padding-left: 10px;
     padding-top: 5px;
+}
+.mySlides {
+    border-radius: 1rem;
+}
+.mySlides img {
+    border-radius: 1rem;
 }

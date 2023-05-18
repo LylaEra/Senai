@@ -3,15 +3,16 @@ const btnmenu = document.getElementById('btnMenu')
 
 function toogleMenu(event){
     if (event.type === 'touchstart') event.preventDefault
-    const nav = document.getElementById('nav')
+    const menu = document.getElementById('menu')
     nav.classList.toggle('active')
 }
 //final menu
+//começo slide
 btnmenu.addEventListener('click', toogleMenu)
 btnmenu.addEventListener('touchstart', toogleMenu)
 let slideIndex = 0;
 showSlides();
-//começo slide
+
 function showSlides() {
   let i;
   let slides = document.getElementsByClassName("mySlides");
