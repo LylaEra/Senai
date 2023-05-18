@@ -1,0 +1,43 @@
+input, .content {
+    display: none;
+    /* background: #0084aa; */
+    line-height: 25px;
+    padding: 5px 25px;
+    color: #fff;
+    font: normal 1em/150% Sans-Serif;
+    min-width: 200px;
+    max-width: 600px;
+    margin-top: 10px;
+}
+
+#Todos:checked ~ .Todos,
+#Multiplayer:checked ~ .Multiplayer,
+#Singleplayer:checked ~ .Singleplayer,
+#Cooperativo:checked ~ .Cooperativo,
+#FPS:checked ~ .FPS {display: block;}
+
+label {
+    cursor: pointer;
+    background: #00c3ff;
+    height: 25px;
+    padding: 5px 10px;
+    display: inline-block;
+    text-align: center;
+    color: #fff;
+    font: normal 1em/150% Sans-Serif;
+    margin-right: 10px;
+    transition: background .25s linear;  
+}
+.categorias {
+    position: relative;
+    overflow: hidden;
+}
+.content {
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
