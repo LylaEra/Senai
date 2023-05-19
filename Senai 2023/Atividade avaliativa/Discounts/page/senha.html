@@ -8,16 +8,17 @@
     <link rel="stylesheet" href="../style/senha.css">
     <title>Redefinir Senha</title>
 </head>
-<body>
+<body class="card">
+    <!-- Começo da Div Pai da Pagina Inteira -->
     <div id="pagina">
-        <!--Div acima do header-->
+        <!--Div acima da Div header-->
         <div id="DivAcimaHeader"></div>
-        <!--Header começa aqui-->
+        <!--Div header começa aqui-->
         <div id="header">
             <!--DivLogo começa aqui-->
             <div id="DivLogo">
                 <div id="DivLogoUm">
-                <img src="../img/discount2.svg" alt="Logo" id="DiscountLogo">
+                    <img src="../img/discount2.svg" alt="Logo" id="DiscountLogo">
                 </div>
                 <div id="DivLogoDois">
                     <h1><a href="../page/index.html">DiscountsFarm</a></h1>
@@ -25,12 +26,18 @@
             </div>
             <!--DivLogo termina aqui-->
             <!--menus começam aqui-->
-            <div id="menu">
-                <b><a href="../page/index.html">Home</a></b>
-                <b><a href="../page/login.html">Login</a></b>
-                <b><a href="../page/cadastro.html">Cadastro</a></b>
-                <b><a href="https://store.steampowered.com/" rel="external" target="_blank">Steam</a></b>
-            </div>
+            <nav id="nav">
+                <button id="btnMenu">
+                    <span id="hamburguer"></span>
+                  </button>
+                <div id="UlMenu">
+                    <ul id="menu">
+                        <li><a href="../page/index.html">Home</a></li>
+                        <li><a href="../page/login.html">Login</a></li>
+                        <li><a href="../page/cadastro.html">Cadastro</a></li>
+                    </ul>
+                </div>
+            </nav>
             <!--menus terminam aqui-->
         </div>
         <!--Div abaixo do header-->

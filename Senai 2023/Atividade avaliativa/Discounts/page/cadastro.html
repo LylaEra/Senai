@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style/bootstrap.css">
     <link rel="stylesheet" href="../style/geral.css">
     <link rel="stylesheet" href="../style/cadastro.css">
     <title>Cadastro</title>
@@ -46,70 +47,55 @@
                 <h1>CADASTRO</h1>
             </header>
             <div id="principal">
-                <!-- formulario -->
-                        <div id="formularioum">
-                            <form id="formulariodois" action="">
-                                <!-- Email -->
-                                <label for="email">Endereço de e-mail</label>
-                                    <input type="email" name="email" class="emailandreemail" required><br>
-                            <form id="formulariodois" action="">
-                                <!-- Confirme email -->
-                                <label for="reenter_email">Confirme o e-mail</label>
-                                    <input type="email" name="email" class="emailandreemail" required><br>
-                                <!-- User -->
-                                <label for="user">Usuário</label>
-                                    <input type="text" class="emailandreemail"
-                                    id="userandpassword" required><br>
-                                <!-- Password -->
-                                <label for="password">Senha</label>
-                                    <input type="password" name="Password" class="emailandreemail" id="userandpassword" size="8" required><br>
-                                <!-- Estado/Cidade -->
-                                <label for="country"> Estado</label>
-                                <select id="estado" name="estado" required>
-                                    <option value="AC">Acre</option>
-                                    <option value="AL">Alagoas</option>
-                                    <option value="AP">Amapá</option>
-                                    <option value="AM">Amazonas</option>
-                                    <option value="BA">Bahia</option>
-                                    <option value="CE">Ceará</option>
-                                    <option value="DF">Distrito Federal</option>
-                                    <option value="ES">Espírito Santo</option>
-                                    <option value="GO">Goiás</option>
-                                    <option value="MA">Maranhão</option>
-                                    <option value="MT">Mato Grosso</option>
-                                    <option value="MS">Mato Grosso do Sul</option>
-                                    <option value="MG">Minas Gerais</option>
-                                    <option value="PA">Pará</option>
-                                    <option value="PB">Paraíba</option>
-                                    <option value="PR">Paraná</option>
-                                    <option value="PE">Pernambuco</option>
-                                    <option value="PI">Piauí</option>
-                                    <option value="RJ">Rio de Janeiro</option>
-                                    <option value="RN">Rio Grande do Norte</option>
-                                    <option value="RS">Rio Grande do Sul</option>
-                                    <option value="RO">Rondônia</option>
-                                    <option value="RR">Roraima</option>
-                                    <option value="SC">Santa Catarina</option>
-                                    <option value="SP">São Paulo</option>
-                                    <option value="SE">Sergipe</option>
-                                    <option value="TO">Tocantins</option>
-                                    <option value="EX">Estrangeiro</option>
-                                </select>
-                                <!-- cadastrar -->
-                                <div id="Cadastrar">
-                                    <button type="submit" id="ButtonEntrar">Cadastrar</button>
-                                </div>
-                            </form>
+                <section class="m-3 mb-5">
+                    <form>
+                        <div class="form-outline mb-4">
+                            <label class="form-label text-white" for="#">Nome</label>
+                          <input type="text" id="#" class="form-control form-control-lg" placeholder="Nome completo"/>
                         </div>
-            </div>    
-        </div>
-        <!-- Começo Footer -->
-        <footer>
-            <b>DiscountsFarm&copy;</b><sup>2023</sup><br>
-            Todos os Direitos reservados
-        </footer>
-        <!-- Fim Footer -->
+                    
+                        <div class="form-outline mb-4">
+                            <label class="form-label text-white" for="#">E-mail</label>
+                          <input type="email" id="#" class="form-control form-control-lg" placeholder="E-mail"/>
+                        </div>
+                    
+                        <div class="form-outline mb-4">
+                            <label class="form-label text-white" for="#">Senha</label>
+                          <input type="password" id="#" class="form-control form-control-lg" placeholder="Senha"/>
+                        </div>
+                    
+                        <div class="form-outline mb-4">
+                            <label class="form-label text-white" for="#">Repetir senha</label>
+                          <input type="password" id="#" class="form-control form-control-lg" placeholder="Repetir senha"/>
+                        </div>
+                    
+                        <div class="form-check d-flex justify-content-center mb-5">
+                          <input class="form-check-input me-2" type="checkbox" value="" id="#" />
+                          <label class="form-check-label text-white" for="#">
+                            Eu concordo com todas as declarações nos <a href="#!" class="text-white"><u>Termos de Serviços</u></a>
+                          </label>
+                        </div>
+                    
+                        <div class="d-flex justify-content-center">
+                          <button type="button"
+                            class="btn btn-block btn-lg text-body" id="BotaoRegistrar">Register</button>
+                        </div>
+                    
+                        <p class="text-center text-white mt-5 mb-0">Você já tem uma conta? <a href="../page/login.html"
+                          class="fw-bold"><u>Logue aqui!</u></a>
+                    </form>
+                </section>   
+            </div>
+        <script src="../js/bootstrap.bundle.js"></script>
+        <script src="../js/bootstrap.js"></script>
+        <script src="../js/js.js"></script>
     </div>
+    <!-- Começo Footer -->
+    <footer>
+        <b>DiscountsFarm&copy;</b><sup>2023</sup><br>
+        Todos os Direitos reservados
+    </footer>
+    <!-- Fim Footer -->
     
 </body>
 </html>
