@@ -10,19 +10,82 @@
 </head>
 <body>
     <div id="divnav">
-        <nav>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Desk</a></li>
-                <li><a href="#">Desk</a></li>
-                <li><a href="#">Sobre</a></li>
-            </ul>
-        </nav>
-        <h3>Museu de Artes e Alguma Coisa a Mais</h3>
+        <div id="navMob">
+            <nav role="navigation">
+                <div id="menuToggle">
+                  <input type="checkbox">
+                  
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  
+                  <ul id="menu">
+                    <li><a href="../page/index.html">Início</a></li>
+                    <li><a href="#">Sobre</a></li>
+                    <li><a href="#">Informacoes</a></li>
+                    <li><a href="#">Mostre-me mais</a></li>
+                  </ul>
+                </div>
+              </nav>
+        </div>
+
+        <div id="navDesk">
+            <nav id="DeskNav">
+                <ul>
+                    <li><a href="../page/index.html">Início</a></li>
+                    <li><a href="#">Sobre</a></li>
+                    <li><a href="#">Informações</a></li>
+                    <li><a href="#">Mostre-me mais</a></li>
+                </ul>
+            </nav>
+        </div>
+        
+            <div class="widget">
+                <div class="fecha">
+                    <p id="diaSemana" class="diaSemana">Terça-Feira</p>
+                    <p id="dia" class="dia">23</p>
+                    <p>de </p>
+                    <p id="mes" class="mes">Maio</p>
+                    <p>de </p>
+                    <p id="year" class="year">2013</p>
+                </div>
+        
+                <div class="reloj">
+                    <p id="horas" class="horas">11</p>
+                    <p>:</p>
+                    <p id="minutos" class="minutos">48</p>
+                    <p>:</p>
+                    <p id="segundos" class="segundos">12</p>
+                    <p id="ampm" class="ampm">AM</p>
+                </div>
+            </div>
     </div>
     <div id="principal">
         <header>
-            <div id="horas">12:33</div>
+            <!-- Começo Slide -->
+            <div class="slideshow-container">
+
+                <div class="mySlides">
+                  <img src="../img/MuseuNacional1.jpg" style="width:100%; height:400px;">
+                </div>
+                
+                <div class="mySlides">
+                  <img src="../img/MuseuNacional2.jpg" style="width:100%; height:400px;">
+                </div>
+                
+                <div class="mySlides">
+                  <img src="../img/MuseuNacional3.jpeg" style="width:100%; height:400px;">
+                </div>
+                <!-- Começo dos botões do slide -->
+                <div id="dots" style="text-align:center">
+                    <span class="dot"></span> 
+                    <span class="dot"></span> 
+                    <span class="dot"></span> 
+                </div>
+                <!-- Final dos botões do slide -->
+            </div>
+            <!-- Final Slide -->
+                
         </header>
         <div id="horario">
             <div class="horario" id="horarioEsquerda">
@@ -39,7 +102,7 @@
             <div class="horario" id="horarioMeio">
                 <div class="horarioFi" id="MeioFi">
                     <h4>Localização</h4>
-                    <div><iframe id="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25841.515812979767!2d-47.979303633239475!3d-15.678803997237214!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935a491b38aad0ff%3A0x1830fff5cebfdb5f!2s%C3%81gua%20Mineral%20Bras%C3%ADlia!5e0!3m2!1spt-BR!2sbr!4v1684766089076!5m2!1spt-BR!2sbr" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+                    <div style="width: 100%;"><iframe id="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25841.515812979767!2d-47.979303633239475!3d-15.678803997237214!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935a491b38aad0ff%3A0x1830fff5cebfdb5f!2s%C3%81gua%20Mineral%20Bras%C3%ADlia!5e0!3m2!1spt-BR!2sbr!4v1684766089076!5m2!1spt-BR!2sbr" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
                 </div>
             </div>
             <div class="horario" id="horarioDireita">
@@ -55,6 +118,6 @@
             </div>
         </div>
     </div>
-    <source src="../js/js.js" type="">
+    <script src="../js/js.js"></script>
 </body>
 </html>
