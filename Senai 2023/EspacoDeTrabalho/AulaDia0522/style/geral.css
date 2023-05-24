@@ -133,13 +133,12 @@ a {
 /* Começo Horas */
 .widget {
 	margin-right: 0.3rem;
-    display: flex;
-    border: solid #fff 1px;
-    justify-content: center;
-    align-items: center;
-    color: #fff;
-    background: rgba(0,0,0,.5);
-    width: 100px;
+  display: flex;
+  border: solid #fff 1px;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  background: rgba(0,0,0,.5);
 }
 
 .widget p {
@@ -150,22 +149,18 @@ a {
 .fecha {
 	text-align: center;
 	padding: 0.2rem;
-    width: 70%;
+  width: 70%;
 }
 
 .reloj {
 	padding: 0.2;
 	text-align: center;
-    width: 30%;
-}
-
-.reloj {
-	display: inline-block;
+  width: 30%;
+  display: flex;
 }
 
 .reloj .segundos,
 .reloj .ampm {
-	/* font-size: 2rem; */
 	display: block;
 }
 /* Final Horas */
