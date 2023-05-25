@@ -1,7 +1,7 @@
 // Começo Horas
 (function(){
 	var atualizarHora = function(){
-		// Obtenemos la fecha actual, incluyendo las horas, minutos, segundos, dia de la semana, dia del mes, mes y año;
+		// Obtenha a data atual, incluindo horas, minutos, segundos, dia da semana, dia do mês, mês e ano;
 		var fecha = new Date(),
 			horas = fecha.getHours(),
 			ampm,
@@ -12,7 +12,7 @@
 			mes = fecha.getMonth(),
 			year = fecha.getFullYear();
 
-		// Accedemos a los elementos del DOM para agregar mas adelante sus correspondientes valores
+		// Acessamos os elementos DOM para posteriormente adicionar seus valores correspondentes
 		var pHoras = document.getElementById('horas'),
 			pAMPM = document.getElementById('ampm'),
 			pMinutos = document.getElementById('minutos'),
@@ -23,19 +23,19 @@
 			pYear = document.getElementById('year');
 
 		
-		// Obtenemos el dia se la semana y lo mostramos
+		// Pegamos o dia da semana e o exibimos
 		var semana = ['Domingo', 'Segunda-Feira', 'Terça-Feira', 'Quarta-Feira', 'Quinta-Feira', 'Sexta-Feira', 'Sabado'];
 		pDiaSemana.textContent = semana[diaSemana];
 
-		// Obtenemos el dia del mes
+		// Temos o dia do mês
 		pDia.textContent = dia;
 
-		// Obtenemos el Mes y año y lo mostramos
+		// Obtemos o mês e o ano e os exibimos
 		var meses = ['Janeiro', 'Fevereiro', 'Março', 'Abril', 'Maio', 'Junho', 'Julho', 'Agosto', 'Setembro', 'Outubro', 'Novembro', 'Dezembro']
 		pMes.textContent = meses[mes];
 		pYear.textContent = year;
 
-		// Cambiamos las hora de 24 a 12 horas y establecemos si es AM o PM
+		// Mudamos o horário de 24 para 12 horas e estabelecemos se é AM ou PM
 
 		if (horas >= 12) {
 			horas = horas - 12;
@@ -44,17 +44,17 @@
 			ampm = 'AM';
 		}
 
-		// Detectamos cuando sean las 0 AM y transformamos a 12 AM
+		// Detectamos quando é 0 AM e transformamos em 12 AM
 		if (horas == 0 ){
 			horas = 12;
 		}
 
-		// Si queremos mostrar un cero antes de las horas ejecutamos este condicional
+		// Se quisermos mostrar um zero antes das horas, executamos esta condicional
 		// if (horas < 10){horas = '0' + horas;}
 		pHoras.textContent = horas;
 		pAMPM.textContent = ampm;
 
-		// Minutos y Segundos
+		// Minutos e Segundos
 		if (minutos < 10){ minutos = "0" + minutos; }
 		if (segundos < 10){ segundos = "0" + segundos; }
 
@@ -85,6 +85,6 @@ function showSlides() {
   }
   slides[slideIndex-1].style.display = "block";  
   dots[slideIndex-1].className += " active";
-  setTimeout(showSlides, 6000); // Change image every 2 seconds
+  setTimeout(showSlides, 6000); // Muda a imagem a cada 6 segundos
 }
 // Final do slide
