@@ -135,6 +135,9 @@ main {
     height: 78%;
     background-color: #b8b8b8;
 }
+.conteinerMiniDois p {
+    margin-left: 0.2rem;
+}
 .conteinerMiniTres {
     width:100% ;
     height: 22%;
@@ -144,6 +147,69 @@ main {
     width: 20%;
     background-color: rgb(222, 228, 233);
 
+}
+#MiniAUm {
+    background-image: url(../img/MuseuNacional4.jpg);
+    background-size: 100% 100%;
+}
+#MiniADois{
+    background-image: url(../img/MuseuNacional5.jpg);
+    background-size: 100% 100%;
+}
+#MiniATres {
+    background-image: url(../img/MuseuNacional3.jpeg);
+    background-size: 100% 100%;
+}
+#MiniAQuatro {
+    background-image: url(../img/MuseuNacional2.jpg);
+    background-size: 100% 100%;
+}
+#MiniACinco {
+    background-image: url(../img/MuseuNacional1.jpg);
+    background-size: 100% 100%;
+}
+#MiniASeis {
+    background-image: url(../img/MuseuNacional4.jpg);
+    background-size: 100% 100%;
+}
+
+@media screen and (max-width:600px) {
+    .conteinerConteudo {
+        width: 40%;
+        height: 80px;
+    }
+    
+}
+@media screen and (max-width:700px) {
+    .conteinerConteudo {
+        width: 40%;
+        height: 50px;
+    }
+    
+}
+@media screen and (max-width:1177px) {
+    .conteinerConteudo {
+        width: 40%;
+        height: 200px;
+    }
+    .conteinerMiniDois ,p ,h4 {
+        font-size: 0.7rem;
+    }
+}
+@media screen and (max-width:530px) {
+    .conteinerMiniDois h4 {
+        font-size: 0.6rem;
+    }
+}
+@media screen and (max-width:420px) {
+    .conteinerMiniDois ,p ,h4 {
+        font-size: 0.6rem;
+    }
+}
+@media screen and (max-width:360px) {
+    .conteinerMiniDois ,p ,h4 {
+        font-size: 0.5rem;
+    }
 }
 
 
